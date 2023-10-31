@@ -65,6 +65,7 @@ a {
 h1 {
   color: #F9FAF8;
   font-size: 48px;
+  font-weight: 900;
 }
 
 .secondary-text {
@@ -98,14 +99,14 @@ h1 {
 }
 
 .options-container {
-  padding: 48px 16px 128px;
-  width: 80%;
-  max-width: 800px;
+  padding: 48px 0 128px;
+  width: 75%;
+  max-width: 750px;
 }
 
 h2 {
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 900;
   color: #1F2937;
   text-align: center;
   margin-bottom: 48px;
@@ -132,4 +133,77 @@ h2 {
 
 .option-text {
   text-align: center;
+}
+
+#quote {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 36px;
+  padding: 128px 0 112px;
+  width: 75%;
+  max-width: 750px;
+}
+
+cite {
+  display: block;
+  text-align: right;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  margin-right: 48px;
+  margin-top: 16px;
+}
+
+#action {
+  padding: 112px 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.action-container {
+  background-color: #3882F6;
+  padding: 64px 128px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+h3 {
+  color: #fff;
+  font-weight: 700px;
+  font-size: 18px;
+}
+
+.action-text {
+  color: #E5E7EB;
+}
+
+.action-button {
+  background-color: #3882F6;
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px 32px;
+  border: 2px #fff solid;
+  font-size: 16px;
+  font-weight: 700px;
+  flex-shrink: 0;
+}
+
+footer {
+  background-color: #1f2937;
+}
+
+.footer-text {
+  color: #E5E7EB;
+  text-align: center;
+  padding: 40px 0;
 }
